@@ -23,7 +23,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mihaistate.ro"),
+  metadataBase: new URL("https://mihai-state.vercel.app/"),
 
   title: "Mihai State – Antrenor Personal",
   description: "Transformă-ți corpul și mintea prin coaching personalizat.",
