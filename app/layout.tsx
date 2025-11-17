@@ -39,7 +39,7 @@ icons: {
     siteName: "Mihai State",
     images: [
       {
-        url: "/profile.png", 
+        url: "/profile.jpg", 
         width: 1080,
         height: 1080,
       },
@@ -50,7 +50,7 @@ icons: {
     card: "summary_large_image",
     title: "Mihai State – Antrenor Personal",
     description: "Transformă-ți corpul și mintea prin coaching personalizat.",
-    images: ["/profile.png"],
+    images: ["/profile.jpg"],
   },
 };
 

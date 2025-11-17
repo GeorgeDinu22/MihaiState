@@ -15,7 +15,7 @@ export default function AboutMe() {
             <div className={styles.containerImg}>
               <Image
                 fill
-                src="/profile.png"
+                src="/profile.jpg"
                 alt="Logo Mihai State"
                 priority
               />
