@@ -2,6 +2,7 @@
 import { useRef, useEffect, useState } from "react";
 import styles from "./BeforeAfterSlider.module.css";
 import { Sparkles } from 'lucide-react';
+import Image from "next/image";
 
 export default function BeforeAfterSlider({
   beforeImage = "/before-after/before-faruri.webp",
@@ -54,12 +55,16 @@ export default function BeforeAfterSlider({
 
   return (
     <div ref={containerRef} className={styles.beforeAfterSection}>
-      <img
+      <Image
+      width={500}
+      height={500}
         src={beforeImage}
         className={styles.sliderBefore}
         alt="Imagine înainte de detailing"
       />
-      <img
+      <Image
+       width={500}
+      height={500}
         ref={afterRef}
         src={afterImage}
         className={styles.sliderAfter}
